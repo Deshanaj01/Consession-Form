@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Railway Concession Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="container">
+    <header>RAILWAY CONCESSION FORM</header>
+    <form id="registrationForm" class="form" action="#">
+      <div class="input-box">
+        <label>Full Name (IN BLOCK LETTERS ONLY)</label>
+        <input type="text" name="fullName" placeholder="Enter full name" required />
+      </div>
+
+      <div class="input-box">
+        <label>Email Address</label>
+        <input type="email" name="email" placeholder="Enter email address" required />
+      </div>
+
+      <div class="input-box address">
+        <label>Address (IN BLOCK LETTERS ONLY)</label>
+        <input type="text" name="address" placeholder="Enter address" required />
+      </div>
+
+      <div class="column">
+        <div class="input-box">
+          <label>Phone Number</label>
+          <input type="tel" name="phoneNumber" placeholder="Enter phone number" required />
+        </div>
+        <div class="input-box">
+          <label>Birth Date</label>
+          <input type="text" name="birthDate" placeholder="dd-mm-yyyy" required />
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="select-box">
+          <label>Branch</label>
+          <select name="branch" required>
+            <option hidden>Branch</option>
+            <option>IT</option>
+            <option>CST</option>
+            <option>ENC</option>
+            <option>DS</option>
+            <option>CE</option>
+            <option>AI</option>
+          </select>
+        </div>
+
+        <div class="select-box">
+          <label>Year</label>
+          <select name="year" required>
+            <option hidden>YEAR</option>
+            <option>F.Y.</option>
+            <option>S.Y.</option>
+            <option>T.Y.</option>
+            <option>Final</option>
+          </select>
+        </div>
+
+        <div class="select-box">
+          <label>Category</label>
+          <select name="category" required>
+            <option hidden>Category</option>
+            <option>General</option>
+            <option>ST</option>
+            <option>SC</option>
+            <option>OBC</option>
+            <option>Others</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="select-box">
+          <label>Railway pass period</label>
+          <select name="railwayPassPeriod" required>
+            <option hidden>Railway pass period</option>
+            <option>Monthly</option>
+            <option>Quarterly</option>
+          </select>
+        </div>
+
+        <div class="select-box">
+          <label>Class for Railway pass</label>
+          <select name="classForRailwayPass" required>
+            <option hidden>Class for Railway pass</option>
+            <option>First</option>
+            <option>Second</option>
+          </select>
+        </div>
+
+        <div class="select-box">
+          <label>Railway type</label>
+          <select name="railwayType" required>
+            <option hidden>Railway type</option>
+            <option>Western</option>
+            <option>Central</option>
+            <option>Harbour</option>
+            <option>Transharbour</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-box address">
+        <label>From</label>
+        <input type="text" name="from" placeholder="Enter railway station travelling from" required />
+      </div>
+
+      <div class="column">
+        <div class="input-box">
+          <label>Date of issue</label>
+          <input type="text" name="dateOfIssue" placeholder="dd-mm-yyyy" required />
+        </div>
+
+        <div class="input-box">
+          <label>Date of expiry</label>
+          <input type="text" name="dateOfExpiry" placeholder="dd-mm-yyyy" required />
+        </div>
+
+        <div class="input-box">
+          <label>Season ticket number</label>
+          <input type="number" name="seasonTicketNumber" placeholder="Season ticket number" required />
+        </div>
+
+        <div class="input-box">
+          <label>Student number</label>
+          <input type="number" name="studentNumber" placeholder="Student number" required />
+        </div>
+
+        <div class="input-box">
+          <label>Collection date</label>
+          <input type="text" name="collectionDate" placeholder="dd-mm-yyyy" required />
+        </div>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
