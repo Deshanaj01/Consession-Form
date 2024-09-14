@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"HelloWorld.C": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "backend"
+	}
+}
